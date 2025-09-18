@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>ProSculpt — community sculpting</title>
+<style>
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial; margin:0; color:#222; background:#fff;}
+  header{background:#f7f3ed;padding:24px 20px;border-bottom:1px solid #e6dfd0;}
+  .logo{font-weight:800; letter-spacing:1px; color:#4a2f1a; font-size:28px;}
+  .tag{color:#7a6656;font-size:13px;margin-top:6px;}
+  .wrap{max-width:980px;margin:28px auto;padding:0 18px;}
+  .hero{display:flex;gap:20px;align-items:center;}
+  .hero img{width:320px;height:220px;object-fit:cover;border-radius:6px;box-shadow:0 6px 20px rgba(20,20,20,0.08);}
+  .intro{flex:1;}
+  h1{margin:0;font-size:22px;color:#2f2f2f}
+  p.lead{color:#5a4f45}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:18px}
+  .card{border:1px solid #eee;padding:12px;border-radius:6px;background:white}
+  .card img{width:100%;height:140px;object-fit:cover;border-radius:4px}
+  .muted{color:#7a6f66;font-size:13px}
+  .forum{margin-top:22px}
+  .post{padding:12px;border-radius:6px;border:1px solid #efe6db;background:linear-gradient(180deg,#fff,#fbf8f6);}
+  footer{padding:20px 0;text-align:center;color:#8b7f75;font-size:13px;margin-top:28px}
+  .btn{display:inline-block;background:#4a2f1a;color:#fff;padding:8px 12px;border-radius:6px;text-decoration:none;font-size:14px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div style="display:flex;justify-content:space-between;align-items:center">
+      <div>
+        <div class="logo">ProSculpt</div>
+        <div class="tag">Community | Techniques | Critiques</div>
+      </div>
+      <div style="text-align:right">
+        <div class="muted">Welcome, guest</div>
+        <a class="btn" href="#">Sign in</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <img src="piece1.jpg" alt="Job's sculpture">
+    <div class="intro">
+      <h1>Local sculptor questions Fallapalooza’s cancellation</h1>
+      <p class="lead">ProSculpt is where hobbyists and small-studio artists post work, give critique, and swap techniques. This week: community reaction to a controversial public installation.</p>
+      <div style="margin-top:10px"><span class="muted">Latest post</span> • <strong>JobL</strong> — <em>Revealed my new piece in the square — feedback?</em></div>
+    </div>
+  </section>
+
+  <section>
+    <h2 style="margin-top:26px">Gallery</h2>
+    <div class="grid">
+      <div class="card"><img src="piece1.jpg"><div style="margin-top:8px"><strong>Untitled Bust</strong><div class="muted">by JobL — clay, unfired</div></div></div>
+      <div class="card"><img src="piece2.jpg"><div style="margin-top:8px"><strong>Cowboy Rider</strong><div class="muted">by JobL — painted ceramic</div></div></div>
+      <div class="card"><img src="piece3.jpg"><div style="margin-top:8px"><strong>Creature Study</strong><div class="muted">by JobL — mixed media</div></div></div>
+    </div>
+  </section>
+
+  <section class="forum">
+    <h2 style="margin-top:24px">Forum</h2>
+    <div class="post" style="margin-bottom:12px">
+      <div style="display:flex;justify-content:space-between">
+        <div><strong>JobL</strong> <span class="muted">— 2 hours ago</span></div>
+        <div class="muted">#public-art</div>
+      </div>
+      <p style="margin:8px 0 0">I put the crucifix up in the town square this morning. Some people were shocked — curious to hear thoughts about context and public response.</p>
+    </div>
+
+    <div class="post">
+      <div style="display:flex;justify-content:space-between">
+        <div><strong>CarlaArt</strong> <span class="muted">— 1 hour ago</span></div>
+        <div class="muted">#support</div>
+      </div>
+      <p style="margin:8px 0 0">This is brave. Art should start conversations, not comfort everyone.</p>
+    </div>
+  </section>
+
+  <footer>
+    ProSculpt — a fictional community page for your production. Use as prop only.
+  </footer>
+</main>
+</body>
+</html>
